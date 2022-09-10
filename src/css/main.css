@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+#q4Wrapper {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+#q4Wrapper h1, #q4Wrapper h3 {
+  margin: 0;
+}
+#q4Wrapper h1 {
+  font-size: 48px;
+}
+#q4Wrapper h3 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+#q4Wrapper header, #q4Wrapper footer {
+  background-color: #22272B;
+}
+#q4Wrapper header {
+  padding: 20px;
+}
+#q4Wrapper footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#q4Wrapper article {
+  text-align: center;
+}
+#q4Wrapper article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+#q4Wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+#q4Wrapper a:hover {
+  transform: scale(1.05);
+}
+#q4Wrapper a span {
+  opacity: 0.5;
+}
+
+.layout_inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color:#23272a;
+}
+
+body {
+  background-color:#2b3034;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Begin styling the report items here! */
+.layout_title {
+  color:#fefefe;
+  font-size:3.2em;
+  padding:22px;
+  margin:0;
+}
+
+.reports h3 {
+  text-transform: uppercase;
+  font-size:0.9em;
+  margin:2px 0;
+}
+
+.reports h3 a {
+  text-decoration:none;
+  color:#fefefe;
+}
+
+.reports h3 a:hover {
+  text-decoration:underline;
+}
+
+.reports_meta {
+  color:#919394;
+  font-weight: bold;
+}
+
+.reports {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reports article {
+  flex-basis: calc(33.333333% - (20px));
+  margin-bottom:30px;
+}
+
+.reports_cover {
+  box-shadow: 0px 0px 12px #222;
+  margin-bottom:10px;
+  width:85%;
+  height:auto;
+  max-width:253px;
+  max-height:316px;
+}
+
+.reports_item {
+  /* padding-right:30px; */
+  text-align:center;
+}
+
+/* .reports_item:nth-child(3n) {
+  padding:0;
+} */
+
+.reports_docs {
+  border-radius: 6px;
+  background-color:#23272a;
+  padding:10px 10px;
+}
+
+@media (max-width: 764px) {
+
+  .reports article {
+    flex-basis: calc(50% - (15px));
+  }
+
+}
