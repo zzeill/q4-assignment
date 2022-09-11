@@ -114,13 +114,8 @@ body {
 }
 
 .reports_item {
-  /* padding-right:30px; */
   text-align:center;
 }
-
-/* .reports_item:nth-child(3n) {
-  padding:0;
-} */
 
 .reports_docs {
   border-radius: 6px;
